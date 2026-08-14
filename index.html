@@ -339,16 +339,6 @@ h1 {
   object-fit: cover;
   display: block;
 }
-.photo-placeholder {
-  aspect-ratio: 4 / 3;
-  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
-  background:
-    radial-gradient(circle at 30% 30%, rgba(194,160,94,.14), transparent 60%),
-    var(--ivory-deep);
-  color: var(--rose); font-size: 13px; letter-spacing: .04em;
-  border-bottom: 1px solid var(--gold-pale);
-}
-.photo-placeholder svg { width: 34px; height: 34px; stroke: var(--rose); opacity: .7; }
 .hobby-body { padding: 20px 22px 24px; }
 .hobby-name { font-family: var(--serif); font-weight: 600; font-size: 20px; color: var(--plum); }
 .hobby-text { font-size: 14.5px; color: var(--ink-soft); margin-top: 8px; line-height: 1.65; }
@@ -745,35 +735,21 @@ footer {
     <div class="rule"><span></span></div>
     <div class="hobby-grid">
       <div class="hobby">
-        <!-- To use your own photo: put it at images/tennis.jpg, then delete the
-             .photo-placeholder div below and un-comment this img tag. -->
-        <!-- <img class="hobby-photo" src="images/tennis.jpg" alt="On the tennis court"> -->
-        <div class="photo-placeholder">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M5 5.5c3 2.5 3 10.5 0 13M19 5.5c-3 2.5-3 10.5 0 13"/></svg>
-          your photo here
-        </div>
+        <img class="hobby-photo" src="images/tennis.jpg" alt="Tennis courts in Central Park, New York">
         <div class="hobby-body">
           <div class="hobby-name">Tennis &amp; Officiating</div>
           <p class="hobby-text">I play competitively and occasionally enjoy officiating USTA matches. In tennis, it's never over until it's over.</p>
         </div>
       </div>
       <div class="hobby">
-        <!-- <img class="hobby-photo" src="images/mountaineering.jpg" alt="Mountaineering"> -->
-        <div class="photo-placeholder">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><path d="M3 19 10 6l4 7 2.5-3.5L21 19H3z"/><circle cx="17.5" cy="5.5" r="1.6"/></svg>
-          your photo here
-        </div>
+        <img class="hobby-photo" src="images/mountaineering.jpg" alt="On the trail below a granite ridge">
         <div class="hobby-body">
           <div class="hobby-name">Mountaineering</div>
           <p class="hobby-text">Long ascents, thin air, and honest risk management. Every summit is an exercise in planning under uncertainty — and in knowing when to turn around.</p>
         </div>
       </div>
       <div class="hobby">
-        <!-- <img class="hobby-photo" src="images/backgammon.jpg" alt="Backgammon"> -->
-        <div class="photo-placeholder">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M6 4v6l1.5-2L9 10V4M15 20v-6l1.5 2 1.5-2v6"/></svg>
-          your photo here
-        </div>
+        <img class="hobby-photo" src="images/backgammon.jpg" alt="An evening game of backgammon">
         <div class="hobby-body">
           <div class="hobby-name">Backgammon</div>
           <p class="hobby-text">The original game of strategy and chance. It can turn around quicker than you think!</p>
